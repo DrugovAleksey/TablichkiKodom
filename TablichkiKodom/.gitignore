@@ -1,0 +1,52 @@
+# Xcode
+.DS_Store
+*/.DS_Store
+*.xcuserdata/
+*.xcworkspace/xcuserdata/
+xcuserdata/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.xcodeproj/*.xcworkspace
+!*.xcodeproj/project.pbxproj
+# macOS
+.DS_Store
+*/.DS_Store
+
+# Xcode user data (не надо хранить в Git)
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+
+# Временные файлы сборки
+DerivedData/
+
+# Файлы проектов, которые лежат снаружи (чтобы Git их не трогал)
+../../Tablichki/
+../../setupProject/
+../../ImageFeedNew/
+../../MovieQuiz-ios2/
+
+
+
+# macOS
+.DS_Store
+*/.DS_Store
+
+# Xcode user data — это мусор, который меняется каждый раз, когда ты двигаешь окно
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+DerivedData/
+
+# И самое главное: скажи Git НЕ смотреть в соседние папки
+../../Tablichki/
+../../setupProject/
+../../ImageFeedNew/
+../../MovieQuiz-ios2/
